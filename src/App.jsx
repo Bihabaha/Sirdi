@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Prices from './pages/Prices';
 import Contact from './pages/Contact';
+import BookingForm from './pages/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/prices" element={<Prices />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/bookingForm" element={<BookingForm />} />
       </Routes>
       <Footer />
     </Router>
