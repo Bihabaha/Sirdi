@@ -84,11 +84,11 @@ a.nav-link:hover{
 /* Carousel*/
 
 .carousel-item {
-  height: 1000px; /* Set a fixed height for the carousel items */
+  height: 800px; /* Set a fixed height for the carousel items */
   position: relative; /* Required to properly position captions */
 }
 
-.carousel-item img {
+.carousel-item video {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensures the image fills the area without distortion */
