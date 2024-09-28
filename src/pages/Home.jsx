@@ -24,10 +24,10 @@ function Home() {
     <video w-100 src="/assets/service2.mp4" controls></video>
     </div>
     <div className="carousel-item">
-    <video w-100 src="/assets/service2.mp4" controls></video>
+    <video w-100 src="/assets/services.mp4" controls></video>
     </div>
     <div className="carousel-item">
-    <video w-100 src="/assets/service2.mp4" controls></video>
+    <img src="/assets/profile.jpeg" alt="" />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
