@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import emailjs from 'emailjs-com';
-import "./BookingForm.css"
+import "../components/BookingForm"
 const BookingForm = () => {
   const [startDate, setStartDate] = useState(new Date());
   const [time, setTime] = useState('');
@@ -95,6 +95,7 @@ const BookingForm = () => {
           <button type="submit">Book Now</button>
         </form>
       )}
+      <p>jjhhhghgh</p>
     </div>
   );
 };

@@ -9,6 +9,7 @@ const BookingForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,7 +23,7 @@ const BookingForm = () => {
     };
 
     emailjs
-      .send('your_service_id', 'your_template_id', templateParams, 'your_user_id')
+      .send('Ismailaytali', 'template_7v82i3n', templateParams, 'your_user_id')
       .then(
         (result) => {
           alert('Booking sent successfully!');
@@ -36,18 +37,18 @@ const BookingForm = () => {
   return (
     <form onSubmit={sendEmail} className="booking-form">
       <div>
-        <label>Your Name:</label>
+        <label>الاسم الكامل:</label>
         <input
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          required
+        
           placeholder="Enter your name"
         />
       </div>
 
       <div>
-        <label>Your Email:</label>
+        <label>البريد الالكتروني:</label>
         <input
           type="email"
           value={email}
@@ -56,9 +57,19 @@ const BookingForm = () => {
           placeholder="Enter your email"
         />
       </div>
+      <div>
+        <label>رقم الهاتف:</label>
+        <input
+          type="tel"
+          value={phoneNumber}
+          onChange={(e) => setPhoneNumber(e.target.value)}
+          required
+          placeholder="Enter your phone number"
+        />
+      </div>
 
       <div>
-        <label>Select Date:</label>
+        <label>اختيار اليوم:</label>
         <DatePicker
           selected={startDate}
           onChange={(date) => setStartDate(date)}
@@ -68,7 +79,7 @@ const BookingForm = () => {
       </div>
 
       <div>
-        <label>Select Time:</label>
+        <label>اختيار الوقت:</label>
         <input
           type="time"
           value={time}
@@ -78,7 +89,7 @@ const BookingForm = () => {
       </div>
 
       <div>
-        <label>Message:</label>
+        <label>راسلنا:</label>
         <textarea
           value={message}
           onChange={(e) => setMessage(e.target.value)}
@@ -86,7 +97,7 @@ const BookingForm = () => {
         />
       </div>
 
-      <button type="submit">Book Now</button>
+      <button type="submit">احجز الان</button>
 
      
     </form>
