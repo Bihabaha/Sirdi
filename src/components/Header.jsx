@@ -1,38 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-
-const Navbar = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #004aad; /* Blue Sky color */
-  color: white;
-`;
-
-const NavLinks = styled.div`
-  a {
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-`;
 
 function Header() {
   return (
-    <Navbar>
-      <h1>Sirdi</h1>
-      <NavLinks>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/prices">Prices</Link>
-        <Link to="/contact">Contact</Link>
-      </NavLinks>
-    </Navbar>
+    <>
+     <nav className="navbar navbar-expand-lg ">
+  <div className="container-fluid">
+    <Link className="navbar-brand" to="/"><img src="/assets/logo.svg" className='   w-25' alt="logo" /></Link>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/">رئيسية</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/about">عنا</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="contact">اتصل بنا</Link>
+        </li>
+     
+      
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+    
+    </>
   );
 }
 

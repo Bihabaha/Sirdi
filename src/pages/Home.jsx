@@ -16,7 +16,7 @@ const HomeWrapper = styled.div`
 function Home() {
   return (
     <HomeWrapper style={{backgroundImage: `url("/assets/backgroundabout.jpg")`, backgroundRepeat:"no-repeat"}}>   
-      <h1>مرحبا بكم في غسيل السيارات</h1>
+      <h1 className='text-light'>مرحبا بكم في غسيل السيارات</h1>
 
 <div>
 <div id="carouselExample" className="carousel slide">
