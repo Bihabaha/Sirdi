@@ -95,7 +95,7 @@ const BookingForm = () => {
           <button type="submit">Book Now</button>
         </form>
       )}
-      <p>jjhhhghgh</p>
+    
     </div>
   );
 };

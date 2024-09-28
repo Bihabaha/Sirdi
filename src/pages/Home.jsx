@@ -19,32 +19,54 @@ function Home() {
       <h1 className='text-light'>مرحبا بكم في غسيل السيارات</h1>
 
 <div>
-<div id="carouselExample" className="carousel slide">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="/assets/manwash.jpg" className="d-block w-100 h-auto" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="/assets/smail.jpeg" className="d-block w-100 h-auto" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="/assets/smail.jpeg" className="d-block w-100 h-auto" alt="..."/>
-    </div>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide "></button>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/manTube.webp" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+      <h5>غسيل خارجي وداخلي شامل</h5>
+      
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/washcar.webp" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+      <h5>تلميع وتفصيل السيارة باستخدام أفضل المنتجات</h5>
+      
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/icon3.webp" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5> إزالة الأوساخ العنيدة والبقع</h5>
+       
+      </div>
+    </div>
+  
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
   </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 </div>
+
+<h2 className='text-light mt-3'>خدماتنا</h2>
       <div className="row   m-0 ">
         <div className="col-lg-3 col-md-6 m-auto "><img className='w-50  m-2' src="/assets/manTube.webp" alt="" />
         <br />
-        <p>غسيل خارجي وداخلي شامل</p>
+        <h5>غسيل خارجي وداخلي شامل</h5>
         </div>
         <div className="col-lg-3 col-md-6 m-auto"><img className='w-50 m-2' src="/assets/washcar.webp" alt="" />
         <br />
