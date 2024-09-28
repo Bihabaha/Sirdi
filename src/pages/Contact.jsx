@@ -20,15 +20,17 @@ const BookingForm = () => {
       message,
       date: startDate.toLocaleDateString(),
       time,
+      phoneNumber
     };
 
     emailjs
-      .send('Ismailaytali', 'template_7v82i3n', templateParams, 'your_user_id')
+      .send('Ismailaytali', 'template_5f8mp4e', templateParams, 'qx8iCpuLb7AezUF90')
       .then(
         (result) => {
           alert('Booking sent successfully!');
         },
         (error) => {
+          console.log('Error:', error);
           alert('Error sending booking. Please try again.');
         }
       );

@@ -28,21 +28,21 @@ function Home() {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/assets/manTube.webp" class="d-block w-100" alt="..."/>
+      <img src="/assets/manTube.webp" class="d-block w-100" alt="manwasing car with tube "/>
       <div class="carousel-caption d-none d-md-block">
       <h5>غسيل خارجي وداخلي شامل</h5>
       
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/washcar.webp" class="d-block w-100" alt="..."/>
+      <img src="/assets/washcar.webp" class="d-block w-100" alt="man waxing car"/>
       <div class="carousel-caption d-none d-md-block">
       <h5>تلميع وتفصيل السيارة باستخدام أفضل المنتجات</h5>
       
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/icon3.webp" class="d-block w-100" alt="..."/>
+      <img src="/assets/icon3.webp" class="d-block w-100" alt="vacumming "/>
       <div class="carousel-caption d-none d-md-block">
         <h5> إزالة الأوساخ العنيدة والبقع</h5>
        
