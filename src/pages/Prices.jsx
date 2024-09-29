@@ -21,7 +21,7 @@ const Pricing = () => {
               درهم</h2>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">التنظيف الداخلي</li>
-                <li className="list-group-item">التنظيف الداخلي</li>
+                <li className="list-group-item">التنظيف الخارجي</li>
                 <li className="list-group-item">تلميع الإطارات</li>
               </ul>
             </div>
