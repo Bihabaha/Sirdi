@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Pricing = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4">الاسعار</h2>
+      <h2 className="text-center mb-4">{t('pricing.title')}</h2>
       <div className="row">
         {/* Pricing for Small Cars */}
         <div className="col-lg-4 col-md-6 mb-4">
@@ -15,19 +18,16 @@ const Pricing = () => {
               alt="Small Car" 
             />
             <div className="card-body text-center">
-              <h5 className="card-title">السيارات الصغيرة</h5>
-              <p className="card-text">مثالية للسيارات المدمجة</p>
-              <h2 style={{color:"#21A6E9"}} > 40
-              درهم</h2>
+              <h5 className="card-title">{t('pricing.small_cars_title')}</h5>
+              <p className="card-text">{t('pricing.small_cars_description')}</p>
+              <h2 style={{color:"#21A6E9"}}>{t('pricing.small_cars_price')}</h2>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">التنظيف الداخلي</li>
-                <li className="list-group-item">التنظيف الخارجي</li>
-                <li className="list-group-item">تلميع الإطارات</li>
+                <li className="list-group-item">{t('pricing.internal_cleaning')}</li>
+                <li className="list-group-item">{t('pricing.external_cleaning')}</li>
+                <li className="list-group-item">{t('pricing.tyre_polish')}</li>
               </ul>
             </div>
-            <div className="card-footer text-center">
-            
-            </div>
+            <div className="card-footer text-center"></div>
           </div>
         </div>
 
@@ -40,19 +40,16 @@ const Pricing = () => {
               alt="Big Car" 
             />
             <div className="card-body text-center">
-              <h5 className="card-title">السيارات الكبيرة</h5>
-              <p className="card-text">مثالية لسيارات الدفع الرباعي والشاحنات</p>
-              <h2 style={{color:"#21A6E9"}}>   80-100
-              درهم</h2>
+              <h5 className="card-title">{t('pricing.big_cars_title')}</h5>
+              <p className="card-text">{t('pricing.big_cars_description')}</p>
+              <h2 style={{color:"#21A6E9"}}>{t('pricing.big_cars_price')}</h2>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">التنظيف الخارجي</li>
-                <li className="list-group-item">التنظيف الداخلي</li>
-                <li className="list-group-item">تلميع الإطارات</li>
+                <li className="list-group-item">{t('pricing.external_cleaning')}</li>
+                <li className="list-group-item">{t('pricing.internal_cleaning')}</li>
+                <li className="list-group-item">{t('pricing.tyre_polish')}</li>
               </ul>
             </div>
-            <div className="card-footer text-center">
-      
-            </div>
+            <div className="card-footer text-center"></div>
           </div>
         </div>
 
@@ -65,18 +62,15 @@ const Pricing = () => {
               alt="Motorbike" 
             />
             <div className="card-body text-center">
-              <h5 className="card-title">دراجات نارية</h5>
-              <p className="card-text">رعاية خاصة لدراجتك</p>
-              <h2 style={{color:"#21A6E9"}}>  15-20
-              درهم</h2>
+              <h5 className="card-title">{t('pricing.motorbikes_title')}</h5>
+              <p className="card-text">{t('pricing.motorbikes_description')}</p>
+              <h2 style={{color:"#21A6E9"}}>{t('pricing.motorbikes_price')}</h2>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">التنظيف الخارجي</li>
-                <li className="list-group-item">تلميع الإطارات</li>
+                <li className="list-group-item">{t('pricing.external_cleaning')}</li>
+                <li className="list-group-item">{t('pricing.tyre_polish')}</li>
               </ul>
             </div>
-            <div className="card-footer text-center">
-             
-            </div>
+            <div className="card-footer text-center"></div>
           </div>
         </div>
       </div>

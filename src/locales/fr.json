@@ -1,0 +1,86 @@
+{
+  "welcome": "Bienvenue au lavage de voitures",
+  "services": "Nos Services",
+  "service1": "Nettoyage complet intérieur et extérieur",
+  "service2": "Enlever la saleté et les taches tenaces",
+  "service3": "Polissage et detailing de la voiture avec les meilleurs produits",
+  "service4": "Services supplémentaires comme le nettoyage des sièges et des tissus",
+  "best_service": "Nous offrons les meilleurs services de lavage de voitures en ville! Nous pouvons venir chez vous pour laver votre voiture.",
+
+  "pricing": {
+    "title": "Tarification",
+    "small_cars_title": "Petites voitures",
+    "small_cars_description": "Parfait pour les voitures compactes",
+    "small_cars_price": "40 AED",
+    "big_cars_title": "Grandes voitures",
+    "big_cars_description": "Idéal pour les SUV et les camions",
+    "big_cars_price": "80-100 MAD",
+    "motorbikes_title": "Motos",
+    "motorbikes_description": "Soin spécial pour votre moto",
+    "motorbikes_price": "15-20 AED",
+    "internal_cleaning": "Nettoyage interne",
+    "external_cleaning": "Nettoyage externe",
+    "tyre_polish": "Polissage des pneus"
+  },
+  "bookingForm": {
+    "fullName": "Nom complet",
+    "enterFullName": "Entrez le nom complet",
+    "email": "Email",
+    "enterEmail": "Entrez l'email",
+    "phoneNumber": "Numéro de téléphone",
+    "enterPhoneNumber": "(+212)0495403802",
+    "selectDate": "Sélectionner la date",
+    "selectTime": "Sélectionner l'heure",
+    "message": "Contactez-nous",
+    "enterMessage": "Entrez les détails supplémentaires",
+    "bookNow": "Réservez maintenant",
+    "successMessage": "La réservation a réussi!",
+    "errorMessage": "Erreur lors de l'envoi de la réservation. Veuillez réessayer.",
+    "convenience_title": "La commodité à portée de main",
+    "convenience_content": "Au lieu de perdre votre temps à attendre dans les stations de lavage de voitures, nous venons directement à vous avec un tricycle équipé des derniers équipements et technologies pour garantir un nettoyage professionnel et approfondi de votre voiture. Tout ce que vous avez à faire est de choisir le moment et le lieu, et nous serons là.",
+    "value_title": "La valeur que vous méritez",
+    "value_content": "Nous ne faisons pas que laver votre voiture, nous vous offrons la tranquillité d'esprit. Grâce à notre équipe de professionnels formés, nous promettons des résultats impressionnants et un service fiable qui améliorera votre expérience de conduite. Nous nous engageons à fournir un service qui répond à vos attentes et garantit une satisfaction totale.",
+    "what_we_offer_title": "Ce que nous offrons",
+    "why_choose_us_title": "Pourquoi nous choisir?",
+    "why_choose_us_description": "Parce que nous vous offrons:",
+    "speed_quality": "Rapidité d'exécution sans compromettre la qualité.",
+    "comfort": "Confort où vous n'avez pas à quitter votre domicile ou votre bureau.",
+    "perfection": "Perfection qui rend votre voiture comme neuve.",
+    "contact_us_message": "N'hésitez pas à nous contacter pour profiter d'une expérience exceptionnelle qui répond à vos besoins et dépasse vos attentes!"
+  },
+
+  "about": {
+    "title": "À Propos de Nous",
+    "content": "Dans le monde d’aujourd’hui où tout va vite, nous comprenons que prendre soin de votre voiture peut être fatiguant et chronophage. C'est pourquoi nous offrons un service de lavage de voitures mobile avec tricycle, pour une expérience pratique chez vous ou sur votre lieu de travail.",
+    "what_makes_us_special": {
+      "title": "Qu'est-ce qui Nous Rend Spéciaux?",
+      "content": "Nous n'offrons pas seulement un simple lavage de voiture. Nous nous efforçons de fournir un service complet qui vous apporte une véritable valeur ajoutée, au-delà du simple nettoyage de votre véhicule. Nous comprenons que votre voiture est plus qu'un simple moyen de transport ; elle fait partie de votre quotidien, et nous voulons la rendre brillante et prête pour vos besoins à tout moment."
+    },
+    "convenience_title": "La Commodité à Portée de Main",
+    "convenience_content": "Au lieu de perdre votre temps à attendre dans les stations de lavage, nous venons directement à vous avec un tricycle équipé des meilleurs outils pour un nettoyage professionnel et complet. Vous n'avez qu'à choisir l'heure et l'endroit, et nous serons là.",
+    "value_title": "La Valeur que Vous Méritez",
+    "value_content": "Nous ne faisons pas que laver votre voiture, nous vous offrons une tranquillité d'esprit. Grâce à notre équipe hautement qualifiée, nous vous promettons des résultats impressionnants et un service fiable qui améliore votre expérience de conduite.",
+    "what_we_offer_title": "Ce Que Nous Offrons",
+    "services": [
+      "Nettoyage intérieur et extérieur complet.",
+      "Élimination de la saleté et des taches tenaces.",
+      "Polissage et detailing de voiture avec des produits de haute qualité.",
+      "Services supplémentaires comme le nettoyage des sièges et des tissus."
+    ],
+    "why_choose_us_title": "Pourquoi Nous Choisir?",
+    "why_choose_us_description": "Parce que nous vous offrons :",
+    "advantages": [
+      "Rapidité sans compromettre la qualité.",
+      "Commodité—vous n'avez pas besoin de quitter votre maison ou votre bureau.",
+      "Perfection—votre voiture est comme neuve."
+    ],
+    "contact_us_message": "N'hésitez pas à nous contacter pour profiter d'une expérience exceptionnelle qui répond à vos besoins et dépasse vos attentes !"
+  },
+
+  "navbar": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "contact": "Contactez-nous",
+    "prices": "Tarifs"
+  }
+}

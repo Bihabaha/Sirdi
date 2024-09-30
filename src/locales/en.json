@@ -1,0 +1,86 @@
+{
+  "welcome": "Welcome to Car Wash",
+  "services": "Our Services",
+  "service1": "Full Exterior and Interior Cleaning",
+  "service2": "Remove Stubborn Dirt and Stains",
+  "service3": "Car polishing and detailing with the best products",
+  "service4": "Additional services like seat and upholstery cleaning",
+  "best_service": "We offer the best car wash services in the city! We can come to your home to wash your car.",
+  "pricing": {
+    "title": "Pricing",
+    "small_cars_title": "Small Cars",
+    "small_cars_description": "Perfect for compact cars",
+    "small_cars_price": "40 AED",
+    "big_cars_title": "Big Cars",
+    "big_cars_description": "Ideal for SUVs and trucks",
+    "big_cars_price": "80-100 MAD",
+    "motorbikes_title": "Motorbikes",
+    "motorbikes_description": "Special care for your bike",
+    "motorbikes_price": "15-20 AED",
+    "internal_cleaning": "Internal Cleaning",
+    "external_cleaning": "External Cleaning",
+    "tyre_polish": "Tyre Polish"
+  },
+
+  "bookingForm": {
+    "fullName": "Full Name",
+    "enterFullName": "Enter full name",
+    "email": "Email",
+    "enterEmail": "Enter email",
+    "phoneNumber": "Phone Number",
+    "enterPhoneNumber": "(+212)0495403802",
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "message": "Message Us",
+    "enterMessage": "Enter any additional details",
+    "bookNow": "Book Now",
+    "successMessage": "Booking was successful!",
+    "errorMessage": "Error sending booking. Please try again.",
+    "convenience_title": "Convenience at Your Fingertips",
+    "convenience_content": "Instead of wasting your time waiting at car wash stations, we come directly to you with a tricycle equipped with the latest equipment and technologies to ensure a professional and thorough cleaning of your car. All you have to do is choose the time and place, and we will be there.",
+    "value_title": "The Value You Deserve",
+    "value_content": "We don’t just wash your car, we give you peace of mind. Thanks to our professionally trained team, we promise impressive results and reliable service that will elevate your driving experience. We are committed to delivering a service that meets your expectations and guarantees full satisfaction.",
+    "what_we_offer_title": "What We Offer",
+    "why_choose_us_title": "Why Choose Us?",
+    "why_choose_us_description": "Because we offer you:",
+    "speed_quality": "Speed in execution without compromising quality.",
+    "comfort": "Convenience where you don't have to leave your home or office.",
+    "perfection": "Perfection that makes your car look as good as new.",
+    "contact_us_message": "Don’t hesitate to contact us to enjoy an exceptional experience that meets your needs and exceeds your expectations!"
+  },
+
+  "about": {
+    "title": "About Us",
+    "content": "In today’s fast-paced world, we understand that taking care of your car can be tiring and time-consuming. That's why we offer a mobile car wash service using a tricycle, bringing convenience to your home or workplace.",
+    "what_makes_us_special": {
+      "title": "What Makes Us Special?",
+      "content": "We don't just offer a simple car wash. We strive to provide a comprehensive service that delivers real value beyond just cleaning your vehicle. We understand that your car is more than just a mode of transport; it's part of your daily life, and we aim to make it shine, ready for your needs anytime."
+    },
+    "convenience_title": "Convenience at Your Fingertips",
+    "convenience_content": "Instead of wasting your time waiting at car wash stations, we come directly to you using a tricycle equipped with the latest gear for a professional, thorough clean. You just need to pick a time and place, and we'll be there.",
+    "value_title": "The Value You Deserve",
+    "value_content": "We don’t just wash your car; we give you peace of mind. Thanks to our highly trained team, we promise amazing results and reliable service that enhances your driving experience.",
+    "what_we_offer_title": "What We Offer",
+    "services": [
+      "Complete interior and exterior cleaning.",
+      "Stubborn dirt and stain removal.",
+      "Car polishing and detailing using top-quality products.",
+      "Additional services like seat and fabric cleaning."
+    ],
+    "why_choose_us_title": "Why Choose Us?",
+    "why_choose_us_description": "Because we offer you:",
+    "advantages": [
+      "Speed without sacrificing quality.",
+      "Convenience—you don’t have to leave your home or office.",
+      "Perfection—making your car look brand new."
+    ],
+    "contact_us_message": "Don't hesitate to contact us for an exceptional experience that meets your needs and exceeds your expectations!"
+  },
+
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "prices": "Pricing"
+  }
+}

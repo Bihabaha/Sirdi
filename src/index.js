@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
+import './i18n';  // Add this to initialize i18next
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
