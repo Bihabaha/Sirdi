@@ -21,20 +21,19 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <img className="w-75" src="/assets/profile.jpeg" alt="" />
+            <img className="w-75" src="/assets/profile.jpeg" alt="profile"/>
           </div>
           <div className="col-lg-6">
             <h2 className="text-end text-white">{t('about.what_we_offer_title')}</h2>
-            <ul className="fs-3 text-end">
+            <ul className="fs-3 text-end list-unstyled">
               <li>{t('about.services.0')}</li>
               <li>{t('about.services.1')}</li>
               <li>{t('about.services.2')}</li>
               <li>{t('about.services.3')}</li>
             </ul>
-
             <h2 className="text-end text-white">{t('about.why_choose_us_title')}</h2>
             <p className="fs-3 fw-bold text-end">{t('about.why_choose_us_description')}</p>
-            <ul className="fs-3 text-end">
+            <ul className="fs-3 list-unstyled text-end">
               <li>{t('about.advantages.0')}</li>
               <li>{t('about.advantages.1')}</li>
               <li>{t('about.advantages.2')}</li>
